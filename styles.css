@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(233, 229, 229);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: auto;
+}
+.title {
+  background-color: gray;
+  border: black 3px;
+}
+/* .image-div {
+  align-self: center;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+} */
