@@ -5,20 +5,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   align-content: space-around;
 }
 #title {
   height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #img-div {
-  align-content: center;
-  flex-basis: auto;
-  height: 400px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 #img-caption {
   align-items: center;
+  margin-bottom: 50px;
 }
 #tribute-info {
-  height: 500px;
+  text-align: center;
 }
