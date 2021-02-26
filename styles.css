@@ -1,34 +1,49 @@
 body {
-  background-color: rgb(206, 203, 203);
+  background-color: #34333f;
 }
 #main {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #888c94;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  align-content: space-around;
+  border: 3px solid #bf3d78;
 }
 #title {
+  background-color: #888c94;
   text-align: center;
-  height: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
   max-width: 100%;
   height: auto;
+  color: #34333f;
+}
+
+#bandName {
+  background-color: #34333f;
+  padding: 5px;
+  color: #dfc46a;
+  font-size: 40px;
+  border: 2px solid #bf3d78;
 }
 
 #img-div {
+  width: 90%;
   max-width: 100%;
   height: auto;
-  background-color: darkgray;
-  border: 2px solid black;
+  background-color: #e2e9e3;
+  border: 2px solid #bf3d78;
   margin-bottom: 20px;
   text-align: center;
 }
 
 #image {
+  width: 100%;
   max-width: 100%;
   height: auto;
+  border: 2px solid #bf3d78;
 }
 
 #img-caption {
@@ -38,4 +53,5 @@ body {
 
 #tribute-info {
   text-align: center;
+  color: #e2e9e3;
 }
