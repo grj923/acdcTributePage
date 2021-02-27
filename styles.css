@@ -1,21 +1,25 @@
 body {
-  background-color: #34333f;
+  background-color: white;
+  padding-bottom: 40px;
 }
 #main {
   margin-left: auto;
   margin-right: auto;
-  background-color: #888c94;
-  width: 90%;
+  background-color: white;
+  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid #bf3d78;
 }
+
 #title {
-  background-color: #888c94;
+  background-color: white;
   text-align: center;
-  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bolder;
+  width: 80%;
   max-width: 100%;
   height: auto;
   color: #34333f;
@@ -30,11 +34,11 @@ body {
 }
 
 #img-div {
-  width: 90%;
+  width: 75%;
   max-width: 100%;
   height: auto;
   background-color: #e2e9e3;
-  border: 2px solid #bf3d78;
+  border: 2px 0px 2px 2px solid #bf3d78;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -51,7 +55,18 @@ body {
   margin-bottom: 50px;
 }
 
-#tribute-info {
+#bonScott {
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
   text-align: center;
-  color: #e2e9e3;
+  color: #34333f;
+}
+
+#tribute-info {
+  width: 75%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: justify;
+  color: #34333f;
 }
