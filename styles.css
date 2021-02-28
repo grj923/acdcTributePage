@@ -11,6 +11,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 5px;
+  border: 2px solid #bf3d78;
 }
 
 #title {
@@ -38,7 +40,7 @@ body {
   max-width: 100%;
   height: auto;
   background-color: #e2e9e3;
-  border: 2px 0px 2px 2px solid #bf3d78;
+  border: 2px 2px 2px 2px solid #bf3d78;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -61,6 +63,8 @@ body {
   font-size: 40px;
   text-align: center;
   color: #34333f;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #34333f;
 }
 
 #tribute-info {
